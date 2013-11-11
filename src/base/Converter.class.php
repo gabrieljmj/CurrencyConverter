@@ -13,6 +13,7 @@
 		public function __construct( $valueWithCurrency, $toCurrency ){
 			$this->valueWithCurrency = $valueWithCurrency;
 			$this->toCurrency = $toCurrency;
+            $this->convert();
 		}
 			
 		public function getConvertedValue(){
